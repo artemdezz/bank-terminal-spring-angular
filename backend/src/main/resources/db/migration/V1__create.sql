@@ -1,0 +1,23 @@
+-- alter table if exists role drop constraint if exists FKghqm2pia0ngnqyt92adfhq26d
+-- drop table if exists role cascade;
+-- drop table if exists usr cascade;
+-- drop sequence if exists hibernate_sequence;
+--
+-- create sequence hibernate_sequence start 1 increment 1;
+-- create table role (user_id int8 not null, roles varchar(255));
+-- create table usr (id int8 not null, password varchar(255), username varchar(255), primary key (id));
+--
+-- alter table if exists usr add constraint UK_dfui7gxngrgwn9ewee3ogtgym unique (username);
+-- alter table if exists role add constraint FKghqm2pia0ngnqyt92adfhq26d foreign key (user_id) references usr;
+--
+--
+
+-- INSERT INTO usr
+-- VALUES (1,'$2a$10$7pMHyqaOrCSt0vEAJYkWqOv2egFsCVt9pMo8AJvQtvZygSNJogq/m','ivan'),
+--        (2,'$2a$10$DzEJzkdGKC0oPxG.OzVUiuHpHpQFuqMPUiUDR7rwvDRZj99MuyHEO', 'misha'),
+--        (3,'$2a$10$bdMmz1khdp6C3pbRrEbs7usyqZLGucXExZbzI2Gt8MZP7/W99snNq','katya');
+--
+-- INSERT INTO role
+-- VALUES (1,'CLIENT'),
+--     (3,'OPERATOR');
+

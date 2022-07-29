@@ -1,0 +1,8 @@
+-- INSERT INTO usr
+-- VALUES (1,'$2a$10$7pMHyqaOrCSt0vEAJYkWqOv2egFsCVt9pMo8AJvQtvZygSNJogq/m','ivan'),
+--        (2,'$2a$10$DzEJzkdGKC0oPxG.OzVUiuHpHpQFuqMPUiUDR7rwvDRZj99MuyHEO', 'misha'),
+--        (3,'$2a$10$bdMmz1khdp6C3pbRrEbs7usyqZLGucXExZbzI2Gt8MZP7/W99snNq','katya');
+--
+-- INSERT INTO role
+-- VALUES (1,'CLIENT'),
+--     (3,'OPERATOR');
